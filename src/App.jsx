@@ -1,28 +1,16 @@
-import Abt from "./components/Abt";
-import Awards from "./components/Awards";
-import Button from "./components/Button";
-import Edu from "./components/Edu";
-import Exp from "./components/Exp";
-import Feedback from "./components/Feedback";
-import Footer from "./components/Footer";
-import Intro from "./components/Intro";
+import Heading from "./assets/Component/Heading";
+import Table from "./assets/Component/Table.jsx";
+import Qual from "./assets/Component/Qual.jsx";
+import Foot from "./assets/Component/Foot.jsx";
 
-import Skills from "./components/Skills";
-import Sumary from "./components/Sumary";
 
 export default function App(){
-  return(
-    <>
-    <Intro/>
-        <Abt/>
-    <Sumary/>
-    <Edu/>
-    <Exp/>
-    <Skills/>
-    <Awards/>
-    <Footer/>
-    <Feedback/>
-    <Button/>
+    return <>
+    <Heading/>
+    <Table />
+    <Qual />
+    <Foot />
     </>
-  );
+        
+    
 }
