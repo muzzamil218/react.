@@ -1,16 +1,21 @@
-import Heading from "./assets/Component/Heading";
-import Table from "./assets/Component/Table.jsx";
-import Qual from "./assets/Component/Qual.jsx";
-import Foot from "./assets/Component/Foot.jsx";
-
+import First from "./components/First";
+import Five from "./components/Five";
+import Forth from "./components/Forth";
+import Second from "./components/Second";
+import Seven from "./components/Seven";
+import Six from "./components/six";
+import Third from "./components/Third";
 
 export default function App(){
-    return <>
-    <Heading/>
-    <Table />
-    <Qual />
-    <Foot />
+  return(
+    <>
+    <First/>
+    <Second/>
+    <Third/>
+    <Forth/>
+    <Five/>
+    <Six/>
+    <Seven/>
     </>
-        
-    
+  );
 }
